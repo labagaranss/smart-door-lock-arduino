@@ -23,7 +23,6 @@ void setup()
   lcd.backlight();
   pinMode(10, OUTPUT);
   pinMode(8, OUTPUT);
-  PinMode(7,OUTPUT);  
   myServo.attach(9);  
   myServo.write(0);    
   lcd.setCursor(0, 0);
